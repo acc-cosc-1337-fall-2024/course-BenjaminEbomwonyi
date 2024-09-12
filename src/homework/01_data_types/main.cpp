@@ -22,6 +22,7 @@ int main()
 	result = multiply_numbers(num1);
 
 	cout<<"result: "<<result<<"\n";
+	cout<< 5/2;
 
 	return 0;
 }
