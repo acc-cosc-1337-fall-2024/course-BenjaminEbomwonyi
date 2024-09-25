@@ -4,3 +4,8 @@
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
+
+test_case("verify sum of squares")
+{
+	require(14 == sum of squares())
+}

@@ -9,3 +9,15 @@
 //return "Silent Generation" when year greater than equal 1925 and less than equal 1945
 //return "Invalid Year" otherwise
 
+
+
+
+
+
+
+
+
+TEST_CASE("test get generation")
+{
+    REQUIRE("Invalid year" == get_genaration)
+}

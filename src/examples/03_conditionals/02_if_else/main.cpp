@@ -11,7 +11,12 @@ Write code to capture year from keyboard.
 Pass the year to get_generation function and display function result.
 */
 int main() 
-{
+{	
+	auto year = 0;
+	cout<<"enter a year";
+
+	auto generation = get_generation(year);
+	cout<<"Generation is: "<<generation<<"/n";
 	
 	
 	return 0;

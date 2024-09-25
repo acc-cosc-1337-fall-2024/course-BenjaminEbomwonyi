@@ -9,3 +9,26 @@
 //returns 'Option 4' when value 4
 //return 'Invalid Option' otherwise
 
+std::string menu_options(int num)
+{
+    auto option = "";
+
+    switch (num)
+    {
+    case 1:
+        option = "option 1";
+        break;
+    case 2:
+        option = "option 2";
+        break;
+    case 3:
+        option = "option 3";
+        break;
+    case 4:
+        option = "option 4";
+        break;
+    default:
+        option = "invalid option";
+        break;
+    }
+}
